@@ -153,12 +153,12 @@ namespace ariel
             }
             bool operator==(const Preorder_iter &other) const
             {
-                return curr == other.p_ccurrurr;
+                return false;//curr == other.p_ccurrurr;
             }
 
             bool operator!=(const Preorder_iter &other) const
             {
-                return curr != other.curr;
+                return false;//curr != other.curr;
             }
         };
         //--------------------------------------- Inorder class -------------------------------------//
@@ -192,12 +192,12 @@ namespace ariel
             }
             bool operator==(const Inorder_iter &other) const
             {
-                return curr == other.p_ccurrurr;
+                return false;//curr == other.p_ccurrurr;
             }
 
             bool operator!=(const Inorder_iter &other) const
             {
-                return curr != other.curr;
+                return false;//curr != other.curr;
             }
         };
 
@@ -232,12 +232,12 @@ namespace ariel
             }
             bool operator==(const Postorder_iter &other) const
             {
-                return curr == other.p_ccurrurr;
+                return false;//curr == other.p_ccurrurr;
             }
 
             bool operator!=(const Postorder_iter &other) const
             {
-                return curr != other.curr;
+                return false;//curr != other.curr;
             }
         };
 
