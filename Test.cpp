@@ -43,6 +43,7 @@ BinaryTree<Color> binary_tree_color_generator()
 TEST_CASE("check preorder by int")
 {
     BinaryTree<int> tree_of_ints;
+    tree_of_ints.add_root(1);
     for (int i = 1; i < 10; i++) {
         tree_of_ints.add_left(i, i + 1);
     }
@@ -56,6 +57,8 @@ TEST_CASE("check preorder by int")
 TEST_CASE("check preorder by int")
 {
     BinaryTree<int> tree_of_ints;
+    tree_of_ints.add_root(1);
+
     for (int i = 1; i < 10; i++) {
         tree_of_ints.add_right(i, i + 1);
     }
